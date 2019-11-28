@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
 
-            android:inputType="textVisiblePassword|textWebPassword"
+            android:inputType="textWebPassword"
             android:textSize="26sp"
             android:textStyle="bold" />
 

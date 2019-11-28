@@ -27,19 +27,19 @@
         android:padding="20dp"
         android:background="#83CBD5">
 
-        <TextView
+        <Spinner
+            android:id="@+id/selectedCurrency1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            >
 
+        </Spinner>
 
-            android:gravity="center"
-            android:text="Amount in CAD:"
-            android:textSize="26sp"
-
-            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/cad"
+            android:id="@+id/fromCurrency"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -59,7 +59,7 @@
         android:background="#83CBD5">
 
         <Spinner
-            android:id="@+id/selectedCurrency"
+            android:id="@+id/selectedCurrency2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -69,7 +69,7 @@
         </Spinner>
 
         <EditText
-            android:id="@+id/toCurrency"
+            android:id="@+id/tocurr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -88,19 +88,11 @@
         android:padding="10dp"
 
         android:layout_marginTop="20dp">
-        <Button
-            android:layout_marginLeft="50dp"
-            android:id="@+id/convert"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
 
-            android:gravity="center"
-            android:text="Convert"
-            android:textSize="24sp"
-            android:textStyle="bold" />
         <Button
-            android:layout_marginLeft="10dp"
-            android:id="@+id/clear"
+
+            android:layout_marginLeft="80dp"
+            android:id="@+id/clear1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -108,19 +100,18 @@
             android:text="Clear"
             android:textSize="24sp"
             android:textStyle="bold" />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="BACK"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
 
     </LinearLayout>
-    <Button
-        android:layout_marginLeft="10dp"
-        android:id="@+id/next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:gravity="center"
-        android:text="NEXT"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_gravity="center"/>
 
 
 </LinearLayout>
