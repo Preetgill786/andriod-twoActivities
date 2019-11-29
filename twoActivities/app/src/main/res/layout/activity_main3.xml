@@ -88,10 +88,19 @@
         android:padding="10dp"
 
         android:layout_marginTop="20dp">
+        <Button
+            android:layout_marginLeft="60dp"
+            android:id="@+id/convert1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
+            android:text="Convert"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
         <Button
 
-            android:layout_marginLeft="80dp"
+            android:layout_marginLeft="10dp"
             android:id="@+id/clear1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -100,18 +109,19 @@
             android:text="Clear"
             android:textSize="24sp"
             android:textStyle="bold" />
-        <Button
-            android:layout_marginLeft="10dp"
-            android:id="@+id/back"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
 
-            android:text="BACK"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            />
 
     </LinearLayout>
+    <Button
+
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="BACK"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
 
 
 </LinearLayout>
